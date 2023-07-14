@@ -1,0 +1,68 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Fundamentos de Python",
+      "description": "El curso de Fundamentos de Python es el punto de partida perfecto para aquellos que desean adentrarse en el apasionante mundo de la programación. Python es uno de los lenguajes más populares y versátiles, utilizado en una amplia gama de aplicaciones, desde desarrollo web hasta análisis de datos y automatización de tareas.",
+      "image": "/static/images/python-logo.jpg",
+      "buttonText": "Registrate",
+      "buttonLink": "#registro",
+      "sectionId": "registro",
+      "courseContent": [
+        "Introducción a Python",
+        "Estructuras de Control",
+        "Funciones y Módulos",
+        "Listas y Diccionarios",
+        "Archivos y Excepciones Avanzadas"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Basico",
+      "description": "El curso de JavaScript es ideal para aquellos que desean adentrarse en el mundo de la programación web y comenzar a construir aplicaciones interactivas y dinámicas. JavaScript es uno de los lenguajes más importantes en el desarrollo web, utilizado para crear funcionalidades avanzadas y experiencias de usuario en los sitios y aplicaciones modernas.",
+      "image": "/static/images/js-taza.png",
+      "buttonText": "Registrate",
+      "buttonLink": "#registro",
+      "sectionId": "registro",
+      "courseContent": [
+        "Introducción a JavaScript",
+        "Manipulación del DOM y Eventos",
+        "Estructuras de Control y Funciones",
+        "Trabajo con Datos",
+        "APIs y Asincronismo"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Fundamentos de HTML y CSS ",
+      "description": "El curso de Fundamentos de HTML y CSS es el punto de partida perfecto para aquellos interesados en el diseño y desarrollo web. HTML y CSS son los lenguajes fundamentales utilizados para crear páginas web y darles estilo y estructura.",
+      "image": "/static/images/html-css.jpg",
+      "buttonText": "Registrate",
+      "buttonLink": "#registro",
+      "sectionId": "registro",
+      "courseContent": [
+        "Introducción a HTML",
+        "Estilización con CSS",
+        "Diseño de Páginas Web",
+        "Multimedia y Formularios",
+        "Optimización y Publicación"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Curso de Ruby Básico",
+      "description": "El curso de Fundamentos de Ruby es perfecto para aquellos que desean adentrarse en el mundo de la programación con un enfoque elegante y poderoso. Ruby es un lenguaje de programación dinámico y orientado a objetos que destaca por su legibilidad y facilidad de uso.",
+      "image": "/static/images/ruby-logo.jpg",
+      "buttonText": "Registrate",
+      "buttonLink": "#registro",
+      "sectionId": "registro",
+      "courseContent": [
+        "Introducción a Ruby",
+        "Control de Flujo y Estructuras de Datos",
+        "Programación Orientada a Objetos en Rub",
+        "Trabajo con Archivos y Excepciones",
+        "Desarrollo de Aplicaciones en Ruby"
+      ]
+    }
+  ]
+}

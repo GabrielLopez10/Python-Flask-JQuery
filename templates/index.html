@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="shorcut icon" href="{{ url_for('static', filename= 'images/programming-favicon.png') }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <title>Conexión Educativa</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename= 'css/bootstrap.min.css') }}">
+
+
+  <!-- Archivos CSS Adicionales -->
+  <link rel="stylesheet" href="{{ url_for('static', filename= 'css/fontawesome.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename= 'css/templatemo-grad-school.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename= 'css/owl.css') }}">
+
+</head>
+
+<body>
+
+  <!--header-->
+  <header class="main-header clearfix" role="header">
+    <div class="logo">
+      <a href="#"><em>Conexión</em> Educativa</a>
+    </div>
+    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+    <nav id="menu" class="main-nav" role="navigation">
+      <ul class="main-menu">
+        <li class="has-submenu"><a href="#section2">Nosotros</a>
+          <ul class="sub-menu">
+            <li><a href="#section2">Quiénes Somos?</a></li>
+          </ul>
+        </li>
+        <li><a href="#section4">Cursos</a></li>
+        <li><a href="#section5">Contactanos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ***** Banner Principal Inicio***** -->
+  <section class="section main-banner" id="top" data-section="section1">
+    <video autoplay muted loop id="bg-video">
+      <source src="{{url_for('static', filename='images/course-video.mp4')}}" type="video/mp4" />
+    </video>
+
+    <div class="video-overlay header-text">
+      <div class="caption">
+        <h6>Escuela de Programación</h6>
+        <h2><em>Aprendé</em> Haciendo</h2>
+        <div class="main-button">
+          <div class="scroll-to-section"><a href="#section4">Mirá Nuestros Cursos</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Banner Principal Fin ***** -->
+
+  <section class="section why-us" data-section="section2">
+    <div class="section-heading">
+      <h2>Por qué elegir nuestra escuela?</h2>
+    </div>
+    <div id='tabs'>
+      <ul>
+        <li><a href='#tabs-1'>Educación de Calidad</a></li>
+        <li><a href='#tabs-2'>Instructores expertos</a></li>
+        <li><a href='#tabs-3'>Comunidad de aprendizaje activa</a></li>
+      </ul>
+      <section class='tabs-content'>
+        <article id='tabs-1'>
+          <div>
+            <img src="{{url_for('static', filename='images/choose-us-image-01.png')}}" alt="">
+          </div>
+          <div>
+            <h4>Educación de Calidad</h4>
+            <p>En nuestra academia de programación, ofrecemos la mejor educación en el campo de la programación y
+              desarrollo de software. Nuestro enfoque se basa en brindar a nuestros estudiantes una experiencia de
+              aprendizaje completa y de calidad, respaldada por instructores altamente calificados y una metodología
+              pedagógica avanzada.</p>
+          </div>
+        </article>
+        <article id='tabs-2'>
+          <div>
+            <img src="{{url_for('static', filename='images/choose-us-image-02.png')}}" alt="">
+          </div>
+          <div>
+            <h4>Instructores expertos</h4>
+            <p>Contamos con un equipo de instructores con amplia experiencia en la industria de la programación. Son
+              profesionales en activo que conocen las últimas tendencias y tecnologías del sector. Están comprometidos
+              en transmitir su conocimiento de manera clara y efectiva.</p>
+            <p>Nuestra academia utiliza una metodología pedagógica innovadora que combina teoría y práctica de manera
+              equilibrada. </p>
+          </div>
+        </article>
+        <article id='tabs-3'>
+          <div>
+            <img src="{{url_for('static', filename='images/choose-us-image-03.png')}}" alt="">
+          </div>
+          <div>
+            <h4>Comunidad de aprendizaje activa</h4>
+            <p>Fomentamos un ambiente colaborativo y de apoyo, donde los estudiantes pueden interactuar entre sí y con
+              los instructores. Organizamos actividades extracurriculares, hackathons y eventos de networking para que
+              los estudiantes se conecten con profesionales de la industria y amplíen sus oportunidades.</p>
+          </div>
+        </article>
+      </section>
+    </div>
+  </section>
+
+  <section class="section coming-soon" id="registro">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-xs-12">
+          <div class="continer centerIt">
+            <div>
+              <h4>Tomá <em>cualquier clase online</em> y obtené descuento en tu próximo curso</h4>
+              <div class="counter">
+
+                <div class="days">
+                  <div class="value">00</div>
+                  <span>Dias</span>
+                </div>
+
+                <div class="hours">
+                  <div class="value">00</div>
+                  <span>Horas</span>
+                </div>
+
+                <div class="minutes">
+                  <div class="value">00</div>
+                  <span>Minutos</span>
+                </div>
+
+                <div class="seconds">
+                  <div class="value">00</div>
+                  <span>Segundos</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="right-content">
+            <div class="top-content">
+              <h6>Registrate de manera <em>gratuita y obtené</em> acceso a los cursos online</h6>
+            </div>
+            <form id="contact" action="" method="get">
+              <div class="row">
+                <div class="col-md-12">
+                  <fieldset>
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Nombre" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <input name="phone-number" type="tel" class="form-control" id="phone-number"
+                      placeholder="Número de Telefono" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <button id="form-submit" class="button" v-on:click="grabar()">Anotate</button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="myModal" class="modal fade">
+    <div class="modal-dialog modal-confirm">
+      <section class="modal-content">
+        <div class="modal-header">
+          <div class="icon-box">
+            <i class="material-icons">&#xE876;</i>
+          </div>
+          <h4 class="modal-title w-100"></h4>
+        </div>
+        <div class="modal-body">
+          <p class="text-center"></p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-success btn-block" data-dismiss="modal">OK</button>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+  <section class="section courses" data-section="section4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Elegí tu curso o carrera</h2>
+          </div>
+        </div>
+        <div class="owl-carousel owl-theme"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section contact" data-section="section5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Contáctese con Nosotros</h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <form id="contact-end" action="" method="post">
+            <div class="row">
+              <div class="col-md-6">
+                <fieldset>
+                  <input name="name" type="text" class="form-control" id="name" placeholder="Nombre" required="">
+                </fieldset>
+              </div>
+              <div class="col-md-6">
+                <fieldset>
+                  <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required="">
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Tu Mensaje"
+                    required=""></textarea>
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="button">Enviar Mensaje</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div id="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d210146.7595441256!2d-58.59810562393872!3d-34.61571293678347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1682685698170!5m2!1ses!2sar"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p><i class="fa fa-copyright"></i> Copyright 2023 by Conexión Educativa</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
+  <script src="{{url_for('static', filename='js/owl-carousel.js')}}"></script>
+  <script src="{{url_for('static', filename='js/tabs.js')}}"></script>
+  <script src="{{url_for('static', filename='js/custom.js')}}"></script>
+  <script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+</body>
+
+</html>
